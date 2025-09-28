@@ -1,3 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 136px;
+  background: #fff;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
 #categories {
   display: flex;
   flex-direction: column;

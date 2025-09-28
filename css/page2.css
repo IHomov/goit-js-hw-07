@@ -1,3 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 24px;
+  width: 408px;
+  height: 136px;
+  background: #fff;
+  margin: 0 auto;
+  min-height: 100vh;
+}
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
