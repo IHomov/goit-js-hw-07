@@ -1,0 +1,25 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+  grid-template-rows: repeat(2, 300px); /* 2 ряди, висота 300px */
+  column-gap: 24px; /* горизонтальний геп */
+  row-gap: 48px; /* вертикальний геп */
+  width: 1128px; /* ширина контейнера */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.gallery li {
+  list-style: none;
+}
+
+.gallery img {
+  width: 1128px; /* щоб картинки відповідали батьківському контейнеру (або ширині li) */
+  height: 300px;
+  object-fit: cover; /* щоб картинка не спотворювалася */
+  display: block;
+  border-radius: 8px;
+  width: 100%; /* краще підлаштувати під li, ніж 1128px безпосередньо */
+  height: 100%;
+}
